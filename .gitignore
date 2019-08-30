@@ -5,6 +5,12 @@
 *.so
 *.dylib
 
+# Libraries
+vendor/*
+
+# Compiled default binary
+go_mux_sorts
+
 # Test binary, build with `go test -c`
 *.test
 
